@@ -16,3 +16,4 @@
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/claudemods/apex-limine-theme/refs/heads/main/install/install-from-github.sh)"
 ```
 
+<img width="1280" height="800" alt="apex" src="https://github.com/user-attachments/assets/fbb2804d-6880-4c84-a207-81079d6b07ba" />
