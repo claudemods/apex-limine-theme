@@ -25,7 +25,7 @@ PARAMS=(
   "term_foreground: 24ffff"
   "term_foreground_bright: f38ba8"
   "timeout: 10"
-  "wallpaper: boot():/spitfire.png"
+  "wallpaper: boot():/rift.jpg"
   "interface_branding:"
   "default_entry: 2"
 )
@@ -131,7 +131,7 @@ install_theme() {
 
   theme_dir=$(dirname "$limine_conf")
   echo -e "${CYAN}Copying theme image to $theme_dir...${RESET}"
-  cp "./apex.png" "$theme_dir/"
+  cp "./rift.jpg" "$theme_dir/"
 
   echo -e "${GREEN}${BOLD}Theme installed successfully!${RESET}"
 
@@ -161,7 +161,7 @@ remove_theme() {
 
   theme_dir=$(dirname "$limine_conf")
   echo -e "${CYAN}Removing theme image from $theme_dir...${RESET}"
-  rm -f "$theme_dir/apex.png"
+  rm -f "$theme_dir/rift.jpg"
 
   echo -e "${GREEN}${BOLD}Theme removed and backup restored!${RESET}"
 
